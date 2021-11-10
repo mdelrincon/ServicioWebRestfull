@@ -1,0 +1,11 @@
+<Context>
+	<Resource name="jdbc/miBancoUPM" 
+	  auth="Container"
+	  type="javax.sql.DataSource"
+	  username="root"
+	  password="restuser"
+	  driverClassName="com.mysql.jdbc.Driver"
+	  url="jdbc:mysql://localhost:3306/miBancoUPM?useSSL=false"
+	  maxTotal="-1" 
+	  maxIdle="3"/>
+</Context>
